@@ -17,12 +17,12 @@
     </item>
     
     <item>
-      <title>第一篇博客</title>
+      <title>the first word!</title>
       <link>http://example.org/posts/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Tue, 14 Feb 2023 16:37:09 +0800</pubDate>
       
       <guid>http://example.org/posts/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid>
-      <description></description>
+      <description>learning and test</description>
     </item>
     
   </channel>
