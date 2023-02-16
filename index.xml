@@ -16,5 +16,23 @@
       <description> 新建博客markdown文件，并编辑博客内容（文件名为**.md） hugo new &amp;#34;posts/new.md&amp;#34; 生成public目录 hugo -D 进入到public目录 cd public 添加当前目录下所有文件进暂存区 git add . 提交，即保存版本，加入-m参数不用进入填写更改信息界面 git commit -m &amp;#34;new blog added&amp;#34; 将本地仓库推送远程仓库分支master git push 焦鹏飞 </description>
     </item>
     
+    <item>
+      <title>第二篇博客</title>
+      <link>http://example.org/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Tue, 14 Feb 2023 16:37:54 +0800</pubDate>
+      
+      <guid>http://example.org/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>the first word!</title>
+      <link>http://example.org/posts/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Tue, 14 Feb 2023 16:37:09 +0800</pubDate>
+      
+      <guid>http://example.org/posts/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid>
+      <description>learning and test</description>
+    </item>
+    
   </channel>
 </rss>
