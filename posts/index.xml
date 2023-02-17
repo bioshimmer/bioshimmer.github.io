@@ -5,14 +5,25 @@
     <link>https://bioshimmer.github.io/posts/</link>
     <description>Recent content in Posts on Hugo tranquilpeak theme</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 15 Feb 2023 17:55:10 +0800</lastBuildDate><atom:link href="https://bioshimmer.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://bioshimmer.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>git知识点总结</title>
+      <link>https://bioshimmer.github.io/2023/02/git%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E7%BB%93/</link>
+      <pubDate>Fri, 17 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://bioshimmer.github.io/2023/02/git%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E7%BB%93/</guid>
+      <description>Introduction 总结一下git中的常用操作：查看分支、删除分支、推送的操作 查看分支 git remote -v#查看远程仓库的信息 git branch aaa#创建aaa的分支 git branch #查看本地分支 git branch -a#查看本地和远程仓库分支 [!TIP]
+当使用git branch -a无法显示远程分支时，尝试git fetch，该命令将获取远程服务器的索引。 远程推送 git push your_resositories your_branch [!TIP] 远程库的名称是remote时指定的名称，默认为origin。
+删除分支 git push your_resositories -d your_branch </description>
+    </item>
+    
     <item>
       <title>博客更新教程</title>
       <link>https://bioshimmer.github.io/2023/02/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0%E6%95%99%E7%A8%8B/</link>
       <pubDate>Wed, 15 Feb 2023 17:55:10 +0800</pubDate>
       
       <guid>https://bioshimmer.github.io/2023/02/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0%E6%95%99%E7%A8%8B/</guid>
-      <description>&lt;p&gt;作为搭建博客的小白，自己测试并整理了一下啊git远程推送的命令&lt;/p&gt;</description>
+      <description>&lt;h4 id=&#34;作为搭建博客的小白自己测试并整理了一下啊git远程推送的命令&#34;&gt;作为搭建博客的小白，自己测试并整理了一下啊git远程推送的命令&lt;/h4&gt;</description>
     </item>
     
     <item>
