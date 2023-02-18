@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Hugo tranquilpeak theme</title>
+    <title>Posts on bioshimmer&#39;s blog</title>
     <link>https://bioshimmer.github.io/posts/</link>
-    <description>Recent content in Posts on Hugo tranquilpeak theme</description>
+    <description>Recent content in Posts on bioshimmer&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Fri, 17 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://bioshimmer.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,9 +12,7 @@
       <pubDate>Fri, 17 Feb 2023 00:00:00 +0000</pubDate>
       
       <guid>https://bioshimmer.github.io/2023/02/git%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E7%BB%93/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34;&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/h2&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;总结一下git中的常用操作查看分支删除分支推送的操作&#34;&gt;总结一下git中的常用操作：查看分支、删除分支、推送的操作&lt;/h3&gt;</description>
+      <description>&lt;h3 id=&#34;汇总一下git中的常用操作查看分支删除分支推送的操作&#34;&gt;汇总一下git中的常用操作：查看分支、删除分支、推送的操作&lt;/h3&gt;</description>
     </item>
     
     <item>
