@@ -300,8 +300,21 @@
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git push your_resositories -d your_branch
 </span></span></code></pre></div><!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
-<p>{{ partial &ldquo;disqus.html&rdquo; . }}
-{{ template &ldquo;_internal/disqus.html&rdquo; . }}</p>
+<p>{% alert info %}
+Here is a info alert with icon
+{% endalert %}
+{% alert success %}
+Here is a info sucess with icon
+{% endalert %}
+{% alert warning %}
+Here is a info warning without icon
+{% endalert %}
+{% alert danger %}
+Here is a danger alert with icon
+{% endalert %}
+{% alert warning no-icon %}
+Here is a info warning without icon
+{% endalert %}</p>
               
 
 
