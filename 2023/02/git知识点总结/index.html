@@ -276,7 +276,7 @@
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=2012783208&auto=1&height=66"></iframe></p>
 <h2 id="introduction"><strong>Introduction</strong></h2>
 <hr>
-<h4 id="git读音为gɪt是一个开源的分布式版本控制系统可以有效高速地处理从很小到非常大的项目版本管理也是linus-torvalds为了帮助管理linux内核开发而开发的一个开放源码的版本控制软件本文汇总git中的常用操作查看分支删除分支推送">Git（读音为/gɪt/）是一个开源的分布式版本控制系统，可以有效、高速地处理从很小到非常大的项目版本管理。也是Linus Torvalds为了帮助管理Linux内核开发而开发的一个开放源码的版本控制软件。本文汇总git中的常用操作：查看分支、删除分支、推送</h4>
+<h5 id="git读音为gɪt是一个开源的分布式版本控制系统可以有效高速地处理从很小到非常大的项目版本管理也是linus-torvalds为了帮助管理linux内核开发而开发的一个开放源码的版本控制软件本文汇总git中的常用操作查看分支删除分支推送">Git（读音为/gɪt/）是一个开源的分布式版本控制系统，可以有效、高速地处理从很小到非常大的项目版本管理。也是Linus Torvalds为了帮助管理Linux内核开发而开发的一个开放源码的版本控制软件。本文汇总git中的常用操作：查看分支、删除分支、推送</h5>
 <h2 id="brbr"><!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
 <h3 id="查看分支"><strong>查看分支</strong></h3>
 <hr>
@@ -284,37 +284,22 @@
 </span></span><span style="display:flex;"><span>git branch aaa#创建aaa的分支
 </span></span><span style="display:flex;"><span>git branch <span style="color:#75715e">#查看本地分支</span>
 </span></span><span style="display:flex;"><span>git branch -a#查看本地和远程仓库分支
-</span></span></code></pre></div><blockquote>
-<p><strong>Note</strong></p>
-<p>当使用git branch -a无法显示远程分支时，尝试git fetch，该命令将获取远程服务器的索引。</p>
-</blockquote>
+</span></span></code></pre></div><div class="alert info ">
+  <p><h6 id="当使用git-branch--a无法显示远程分支时尝试git-fetch该命令将获取远程服务器的索引">当使用git branch -a无法显示远程分支时，尝试git fetch，该命令将获取远程服务器的索引。</h6>
+</p>
+</div>
 <h3 id="远程推送"><strong>远程推送</strong></h3>
 <hr>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git push your_resositories your_branch
-</span></span></code></pre></div><blockquote>
-<p><strong>Warning</strong></p>
-<p>远程库的名称是remote时指定的名称，默认为origin。</p>
-</blockquote>
+</span></span></code></pre></div><div class="alert info ">
+  <p><h6 id="远程库的名称是remote时指定的名称默认为origin">远程库的名称是remote时指定的名称，默认为origin。</h6>
+</p>
+</div>
 <h3 id="删除分支"><strong>删除分支</strong></h3>
 <hr>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git push your_resositories -d your_branch
 </span></span></code></pre></div><!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
-<p>{% alert info %}
-Here is a info alert with icon
-{% endalert %}
-{% alert success %}
-Here is a info sucess with icon
-{% endalert %}
-{% alert warning %}
-Here is a info warning without icon
-{% endalert %}
-{% alert danger %}
-Here is a danger alert with icon
-{% endalert %}
-{% alert warning no-icon %}
-Here is a info warning without icon
-{% endalert %}</p>
               
 
 
@@ -377,8 +362,8 @@ Here is a info warning without icon
   
   
     <li class="post-action">
-      <a class="post-action-btn btn btn--default" href="#disqus_thread" aria-label="发表评论">
-        <i class="far fa-comment"></i>
+      <a class="post-action-btn btn btn--default" href="#gitalk" aria-label="发表评论">
+        <i class="fa fa-comment"></i>
       </a>
     </li>
   
@@ -395,28 +380,26 @@ Here is a info warning without icon
 
             
   
-    <div id="disqus_thread">
-      <noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
+    <div id="gitalk">
+      <noscript>Please enable JavaScript to view the comments powered by Gitalk.</noscript>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gitalk/1.7.2/gitalk.min.js" integrity="sha512-EcTCcXV46teiNwe0VcnM5A038tcY+BaQYO4nW6Gh2i7v4/HjBVg7xx3+JBLl9WofDds//INJAiEGAtdgr8PWyA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script type="text/javascript">
-      var disqus_config = function() {
-        this.page.url = 'https:\/\/bioshimmer.github.io\/2023\/02\/git%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E7%BB%93\/';
-        
-          this.page.identifier = '\/2023\/02\/git%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E7%BB%93\/'
-        
-      };
       (function() {
-        
-        
         if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-          document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+          document.getElementById('gitalk').innerHTML = 'Gitalk comments not available by default when the website is previewed locally.';
           return;
         }
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        var disqus_shortname = 'test';
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-      })();
+        new Gitalk({
+          clientID: '',
+          clientSecret: '',
+          repo: '',
+          owner: '',
+          admin: [''],
+          id: 'd46132bde49fa969564ec621b54b26a6',
+          ...{"distractionfreemode":false,"enablehotkey":true,"language":"zh","pagerdirection":"first","perpage":10}
+        }).render('gitalk')
+      })()
     </script>
   
 
@@ -484,8 +467,8 @@ Here is a info warning without icon
   
   
     <li class="post-action">
-      <a class="post-action-btn btn btn--default" href="#disqus_thread" aria-label="发表评论">
-        <i class="far fa-comment"></i>
+      <a class="post-action-btn btn btn--default" href="#gitalk" aria-label="发表评论">
+        <i class="fa fa-comment"></i>
       </a>
     </li>
   
