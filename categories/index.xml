@@ -4,43 +4,6 @@
     <title>Categories on bioshimmer&#39;s blog</title>
     <link>https://bioshimmer.github.io/categories/</link>
     <description>Recent content in Categories on bioshimmer&#39;s blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 15 Jun 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://bioshimmer.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>releases</title>
-      <link>https://bioshimmer.github.io/categories/releases/</link>
-      <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://bioshimmer.github.io/categories/releases/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tranquilpeak</title>
-      <link>https://bioshimmer.github.io/categories/tranquilpeak/</link>
-      <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://bioshimmer.github.io/categories/tranquilpeak/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>showcase</title>
-      <link>https://bioshimmer.github.io/categories/showcase/</link>
-      <pubDate>Sun, 14 Jun 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://bioshimmer.github.io/categories/showcase/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>features</title>
-      <link>https://bioshimmer.github.io/categories/features/</link>
-      <pubDate>Thu, 28 May 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://bioshimmer.github.io/categories/features/</guid>
-      <description></description>
-    </item>
-    
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://bioshimmer.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
