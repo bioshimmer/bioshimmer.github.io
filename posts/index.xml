@@ -69,5 +69,14 @@
       <description>conda clean -p #删除没有用的包 conda clean -t #tar打包 conda clean -y &amp;ndash;all #删除全部的安装包及cache</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>https://bioshimmer.github.io/1/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bioshimmer.github.io/1/01/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
