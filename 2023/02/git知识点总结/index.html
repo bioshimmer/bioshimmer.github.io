@@ -101,7 +101,7 @@
     
     
     
-    <link rel="stylesheet" href="https://bioshimmer.github.io/css/style-h6ccsoet3mzkbb0wngshlfbaweimexgqcxj0h5hu4h82olsdzz6wmqdkajm.min.css" />
+    <link rel="stylesheet" href="https://bioshimmer.github.io/css/tranquilpeak.css" />
     
     
 
@@ -274,6 +274,7 @@
             <div class="main-content-wrap">
               <p><img src="https://tse2-mm.cn.bing.net/th/id/OIP-C.bPCeafnz_fLBXywZVOm_UgHaE6?pid=ImgDet&amp;rs=1" alt="日出" title="日出"></p>
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=2012783208&auto=1&height=66"></iframe>
+<p>{{ weather}}</p>
 <h2 id="introduction"><strong>Introduction</strong></h2>
 <hr>
 <h5 id="git读音为gɪt是一个开源的分布式版本控制系统可以有效高速地处理从很小到非常大的项目版本管理也是linus-torvalds为了帮助管理linux内核开发而开发的一个开放源码的版本控制软件本文汇总git中的常用操作查看分支删除分支推送">Git（读音为/gɪt/）是一个开源的分布式版本控制系统，可以有效、高速地处理从很小到非常大的项目版本管理。也是Linus Torvalds为了帮助管理Linux内核开发而开发的一个开放源码的版本控制软件。本文汇总git中的常用操作：查看分支、删除分支、推送</h5>
@@ -382,6 +383,52 @@
           </div>
         </article>
         <footer id="footer" class="main-content-wrap">
+
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/live2d-widget@3.1.4/lib/L2Dwidget.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/live2d-widget@3.1.4/lib/L2Dwidget.0.min.js"></script>
+
+<script type="text/javascript">
+    L2Dwidget.init({
+        model: {
+            scale: 1,
+            hHeadPos: 0.5,
+            vHeadPos: 0.618,
+            jsonPath: 'https://cdn.jsdelivr.net/gh/DomathID/live2d-model@main/Miku/miku.model.json',       
+        },
+        display: {
+            superSample: 9,     
+            width: 100,         
+            height: 200,        
+            position: 'right',   
+            hOffset: 100,         
+            vOffset: 30,         
+        },
+        mobile: {
+            show: true,         
+            scale: 1,           
+            motion: true,       
+        },
+        react: {
+            opacityDefault: 1,  
+            opacityOnHover: 1,  
+        },
+    });
+</script>
+
+
+  
+  <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+    <text class="poem_sentence"></text>
+    <text class="poem_info"></text>
+    <script type="text/javascript">
+      jinrishici.load(function(result) {
+        var sentence = document.querySelector(".poem_sentence")
+        var info = document.querySelector(".poem_info")
+        sentence.innerHTML = result.data.content
+        info.innerHTML = '——' + result.data.origin.author
+      });
+  </script>
   <span class="copyrights">
     &copy; 2023  bioshimmer. All Rights Reserved
   </span>
@@ -463,7 +510,33 @@
 
 
     </div>
-    
+    <div id="he-plugin-simple"></div>
+<script>
+WIDGET = {
+  "CONFIG": {
+    "modules": "01234",
+    "background": "5",
+    "tmpColor": "000000",
+    "tmpSize": "16",
+    "cityColor": "000000",
+    "citySize": "16",
+    "aqiColor": "FF0000",
+    "aqiSize": "16",
+    "weatherIconSize": "24",
+    "alertIconSize": "18",
+    "padding": "10px 10px 10px 10px",
+    "shadow": "0",
+    "language": "auto",
+    "fixed": "true",
+    "vertical": "top",
+    "horizontal": "left",
+    "right": "50",
+    "top": "10",
+    "key": "490792cc0b2c4c26884da5592b13bc7b"
+  }
+}
+</script>
+<script src="https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0"></script>
     <div id="about">
   <div id="about-card">
     <div id="about-btn-close">
@@ -511,7 +584,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 
-<script src="https://bioshimmer.github.io/js/script-yqzy9wdlzix4lbbwdnzvwx3egsne77earqmn73v9uno8aupuph8wfguccut.min.js"></script>
+<script src="https://bioshimmer.github.io/js/tranquilpeak.js"></script>
 
 
   
