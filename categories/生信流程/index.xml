@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>生信流程 on bioshimmer&#39;s blog</title>
+    <link>https://bioshimmer.github.io/categories/%E7%94%9F%E4%BF%A1%E6%B5%81%E7%A8%8B/</link>
+    <description>Recent content in 生信流程 on bioshimmer&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 23 Feb 2023 10:05:41 +0800</lastBuildDate><atom:link href="https://bioshimmer.github.io/categories/%E7%94%9F%E4%BF%A1%E6%B5%81%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>call SNP</title>
+      <link>https://bioshimmer.github.io/2023/02/call-snp/</link>
+      <pubDate>Thu, 23 Feb 2023 10:05:41 +0800</pubDate>
+      
+      <guid>https://bioshimmer.github.io/2023/02/call-snp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>conda</title>
+      <link>https://bioshimmer.github.io/2023/02/conda/</link>
+      <pubDate>Thu, 23 Feb 2023 10:05:41 +0800</pubDate>
+      
+      <guid>https://bioshimmer.github.io/2023/02/conda/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
